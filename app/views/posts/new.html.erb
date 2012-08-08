@@ -1,0 +1,5 @@
+<%= form_tag("/posts", :method => 'post') do %>
+	<%= label_tag(:file, "File location:") %>
+	<%= text_field_tag :file %>
+	<%= submit_tag("Upload") %>
+<% end %>
